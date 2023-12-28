@@ -1,0 +1,22 @@
+.contentGallery{
+    min-height: 606px;
+    max-height: 606px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.imgs {
+    white-space: nowrap;
+  }
+.imgs img{
+    margin-right: 30px;
+}
+.titlegallery{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+}
+.contentitle{
+    max-width: 496px;
+    margin: 0;
+}
