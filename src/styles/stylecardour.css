@@ -1,0 +1,79 @@
+.Cardcontainer {
+
+    background-repeat: no-repeat;
+    max-width: 350px;
+    min-width: 350px;
+    height: 468px;
+    transition: background 1s, color 0.1s; 
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.Cardcontainer img{
+    display: none;
+}
+.printext{
+    font-family: Lora;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.printsub{
+    font-family: Lato;
+    font-size: 18px;
+    max-width: 253px;
+    line-height: 28px
+}
+.titlecard{
+    font-family: Lato;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+.ourbutton{
+    width: 100%;
+    max-width: 72px;
+    height: 72px;
+    background-color: #FF5722;
+    color: white;
+    margin-right: auto;
+    transition: max-width 1s;
+    font-size: 18px;
+    margin-top: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: none;
+}
+
+.Cardcontainer:hover {
+    background-image: none !important;
+    background-color: #10375C;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.Cardcontainer:hover .titlecard {
+    display: none;
+
+}
+.Cardcontainer:hover .ourbutton::before{
+    content: 'Mirar disponibilidad ';
+}
+.Cardcontainer:hover .ourbutton{
+    max-width: 255px;
+}
+.Cardcontainer:hover img{
+    display:block;
+    margin-left: calc(60% - 10px);
+}
+.contador-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

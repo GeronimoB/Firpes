@@ -1,0 +1,11 @@
+.sub--mensaje{
+    color: #2F2F2F;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 450px;
+    height: 110px;
+    margin-right: 30px;
+}

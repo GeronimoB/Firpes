@@ -1,0 +1,42 @@
+.Usefriesmenu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logosmolecule{
+    width: 100%;
+    max-width: 1175px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.centertextfrries{
+    margin-bottom: 4px;
+}
+.marginfries{
+    margin-bottom: 56px;
+}
+.Logo1{
+    width: 120px;
+    height: 40px;
+}
+.Logo2{
+    width: 180px;
+    height: 39px;
+}
+.Logo3{
+    width: 120px;
+    height: 35px;
+}
+.Logo4{
+    width: 170px;
+    height: 37px;
+}
+.Logo5{
+    width: 146px;
+    height: 46px;
+}
+.Logo6{
+    width: 140px;
+    height: 67px;
+}

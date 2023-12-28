@@ -1,0 +1,13 @@
+.title--mensaje{
+    color: var(--Brand-Color-Primary, #10375C);
+    font-family: Lora;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 620px;
+    margin-right: 67px;
+}
+.palabra-destacada{
+    color: var(--brand-color-secondary-120, #DD2C00);
+}

@@ -1,0 +1,52 @@
+.Footercontainer{
+    width: 100%;
+    min-height: 408px;
+    display: flex;
+    background: #0D2C4A;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.subcontainerfooter{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+}
+.contentfooter{
+    display: inline-flex;
+    align-items: flex-start;
+    height: 220px;
+    gap: 68px;
+    margin-top: 70px;
+}
+
+
+.espacios{
+    max-width: 340px;
+}
+.espacios h1{
+    font-family: Lora;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.espacios p{
+    font-family: Lato;
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.socialmedia{
+    margin-right: 10px;
+}
+
+.titlefooter{
+    opacity: 0.5;
+    margin-bottom: 24px;
+}
+.optionsfooter p{
+    margin-bottom: 9px;
+}

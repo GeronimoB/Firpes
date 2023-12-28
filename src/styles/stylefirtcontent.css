@@ -1,0 +1,18 @@
+.firtsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.imgmenu1{
+    max-width: 960px;
+    height: auto;
+    margin-left: auto;
+    margin-right: -3%;
+}
+.menu1{
+    margin-top: 148px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
